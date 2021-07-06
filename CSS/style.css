@@ -7,13 +7,8 @@ body
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
-.extra
+.extra img
 {
-    background-image: linear-gradient(to right, #fdad00,#fe4f31);
-    padding: 0 15px;
-    margin: 0px auto;
-}
-.extra img{
     display: flex;
     justify-content: center;
     width: 10%;
