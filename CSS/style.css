@@ -3,18 +3,19 @@ body
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
-section{
-    display: flex;
-    margin-bottom: 100px;
-}
 h1
 {
     font-size: 40px;
 }
 h2
 {
-    font-size: 30px;
+    font-size: 35px;
     color: grey;
+}
+h3
+{
+    size: 50px;
+    color: gray;
 }
 .one-word
 {
@@ -25,35 +26,51 @@ h2
     color: white;
     text-decoration: none;
     padding: 10px 30px;
-    background-image: linear-gradient(#fdad00,#fe4f31);
+    background-image: linear-gradient(to right, #fdad00,#fe4f31);
     border-radius: 25px;
+}
+.flex
+{
+    display: flex;
+}
+.section-1
+{
+    margin: 70px 150px 100px;
 }
 .half
 {
+    position: relative;
     width: 50%;
-    padding-left: 15%;
 }
 .half img
 {
-    width: 80%;
+    width: 100%;
 }
 .section-2
 {
     background-image: url(/Images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 100px;
 }
 .half2
 {
-    padding-right: 10%;
+    margin-top: 50px;
+    padding-right: 5%;
     width: 50%;
 }
 .half2 img
 {
-    padding-left: 45%;
-    width: 50%;
+    padding-left: 40%;
+    width: 100%;
 }
-.expert{
+.recipies
+{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.expert
+{
     width: 25%;
     padding: 2%;
     margin: 0% 2%;
@@ -62,4 +79,15 @@ h2
 }
 .ex{
     margin: 0% 5%;
+}
+
+.footer-area
+{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+footer p
+{
+    color: gainsboro;
 }
