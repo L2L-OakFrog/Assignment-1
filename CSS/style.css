@@ -7,18 +7,6 @@ body
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
-.extra img
-{
-    display: flex;
-    justify-content: center;
-    width: 10%;
-}
-.menu
-{
-    font-weight: bolder;
-    margin: 1%;
-    padding: 10px 20% 10px 0px;
-}
 h1
 {
     line-height: 20px;
@@ -49,6 +37,18 @@ h3
 .flex
 {
     display: flex;
+}
+.extra img
+{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+.menu
+{
+    font-weight: bolder;
+    margin: 1%;
+    padding: 10px 20% 10px 0px;
 }
 .section-1
 {
@@ -85,6 +85,7 @@ h3
 }
 .half2 img
 {
+    margin-top: 12%;
     padding-left: 40%;
 }
 .recipies
@@ -98,7 +99,7 @@ h3
     width: 25%;
     padding: 2%;
     margin: 0% 2%;
-    box-shadow: 10px 10px 40px grey;
+    box-shadow: 0px 10px 40px 10px grey;
     border-radius: 10%;
 }
 .ex
